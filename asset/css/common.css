@@ -1,0 +1,208 @@
+body {
+    line-height: normal;
+    font-size: 14px;
+    line-height: 1.25em;
+    color: inherit;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: '-apple-system', 'BlinkMacSystemFont', helvetica, 'AppleSDGothicNeo', sans-serif;
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.wrapper {
+    padding: 0 10px 34px;
+    background-color: #efeff0;
+}
+.top-area .logo a::before,
+.top-area .main-cata::before,
+.top-area .cata::before,
+.top-area .btn-close::before,
+.sc-service .service-item a::before {
+    background-image: url(../images/spSw_hamburger_svg.svg);
+    background-size: 627px 623px;
+    background-repeat: no-repeat;
+}
+header .logo a::before,
+header .utils-area a::before,
+.sc-main .wrap .star::before,
+.sc-main .plus-box .box::before,
+.sc-main .plus-box .p-box::before,
+section .btn-box a .txt::before,
+.sc-proinfor .more-box .desc::before,
+.sc-visual .notice-title::before,
+.sc-seller .btn-wrap .btn-share::before,
+.sc-seller .btn-wrap .btn-like .txt::before,
+section .product-swiper .ig-content .btn-like::after,
+.sc-main .all-box .saving-title .txt::after,
+.sc-main .all-box .btn-close::before,
+.sc-deliver .del-box span button::after,
+.sc-deliver .del-box .btn-close::before  {
+    background-image: url(../images/spIcon_svg.svg);
+    background-size: 659px 650px;
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+}
+.sc-main .point-box .btn-pointview::before,
+.sc-main .plus-box a::before,
+.sc-main .banner-box a::before,
+.sc-proinfor .more-box .btn-more::before,
+.sc-visual .btn-all .txt::after,
+.sc-seller .seller-box .seller::after,
+.sc-seller .btn-more .txt::after,
+.sc-popproduct .link-all::after,
+.sc-informore .infor-item a::after,
+.sc-main .point-box.active .btn-pointview::before,
+.sc-visual .img-box .more-box .txt::after {
+    background-image: url(../images/spArrow_svg.svg);
+    background-size: 193px 188px;
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+}
+.sc-main .plus-box .plus-title::before {
+    background-image: url(../images/spText_svg.svg);
+    background-size: 336px 295px;
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+}
+main .t-wrap .btn-top .txt::after,
+footer .naver-seller::after {
+    background-image: url(../images/sp_footer.png);
+    background-size: 27px auto;
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+}
+footer .f-logo a::before {
+    background-image: url(../images/spSs_icon_svg.svg);
+    background-size: 259px
+    220px;
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+}
+section .btn-box {
+    box-shadow: inset 0 1px 0 0 #f1f1f5;
+    display: flex;
+}
+section .btn-box a {
+    display: block;
+    width: 50%;
+    text-align: center;
+    height: 54px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #000;
+    position: relative;
+}
+section .btn-box a.share .txt::before {
+    background-position: -131px -602px;
+    width: 18px;
+    height: 16px;
+    margin: 19px 7px 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+section .btn-box a.like .txt::before {
+    background-position: -638px -128px;
+    width: 17px;
+    height: 15px;
+    margin: 20px 5px 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+section .btn-box a.like::before {
+    position: absolute;
+    top: 50%;
+    left: -1px;
+    width: 1px;
+    height: 18px;
+    margin-top: -9px;
+    background-color: rgba(0,0,0,.1);
+    content: '';
+}
+.lnb-box {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9000;
+    padding: 10px 8px 10px 7px;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 0 0 rgb(0 0 0 / 7%);
+    display: table;
+    padding: 10px 8px 10px 7px;
+    width: 100%;
+    table-layout: fixed;
+}
+.lnb-box a {
+    display: table-cell;
+    height: 44px;
+    padding: 0 2px 0 3px;
+    box-sizing: content-box;
+    vertical-align: middle;
+}
+.lnb-box a .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.lnb-box a .box::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    content: '';
+}
+.lnb-box .btn-like,
+.lnb-box .btn-talk {
+    width: 44px;
+}
+.lnb-box .btn-like svg,
+.lnb-box .btn-talk svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    margin: -12px 0 0 -12px;
+}
+.lnb-box .btn-present .box::before,
+.lnb-box .btn-buy .box::before {
+    border-color: #03c75a;
+}
+.lnb-box .btn-present,
+.lnb-box .btn-buy {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.64px;
+    color: #222;
+    text-align: center;
+    line-height: 44px;
+}
+.lnb-box .btn-buy .box {
+    color: #ffffff;
+    background-color: #03c75a;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.page-btn-top {
+    position: fixed;
+    right: 7px;
+    bottom: 73px;
+    z-index: 3001;
+    display: none;
+}

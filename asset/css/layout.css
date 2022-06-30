@@ -1,0 +1,122 @@
+@import url(./reset.css);
+@import url(./common.css);
+
+
+header {
+    background-color: #292b2c;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+header .logo a {
+    display: block;
+    padding: 17px 15px 17px 16px;
+}
+header .logo a::before {
+    background-position: -368px -570px;
+    width: 22px;
+    height: 22px;
+}
+header .brand-logo {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 53px;
+}
+header .brand-logo a {
+    font-size: 21px;
+    line-height: 56px;
+    color: #fff;
+    display: block;
+}
+header .utils-area {
+    display: flex;
+    padding-right: 8px;
+}
+header .utils-area a {
+    display: block;
+    padding: 16px 8px;
+}
+header .utils-area a::before {
+    width: 24px;
+    height: 24px;
+}
+header .utils-area a.btn-search::before {
+    background-position: -537px -523px;
+}
+header .utils-area a.btn-cart::before {
+    background-position: -571px -369px;
+}
+header .utils-area a.btn-menu::before {
+    background-position: -36px -570px;
+}
+footer {
+    padding: 14px 7px 74px 5px;
+    text-align: center;
+}
+footer .naver-seller {
+    display: inline-block;
+    position: relative;
+    padding-right: 13px;
+    margin-bottom: 2px;
+    font-family: 'AppleSDGothicNeo-Light';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    color: #555;
+}
+footer .naver-seller::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 8px;
+    height: 5px;
+    margin: -4px 0 0 5px;
+    background-position: 0 0;
+    vertical-align: middle;
+    content: '';
+}
+footer .corp-box {
+    max-width: 300px;
+    margin: 9px auto 0;
+    font-family: 'AppleSDGothicNeo-Light','HelveticaNeue';
+    font-size: 13px;
+}
+footer .corp-box a {
+    display: inline-block;
+    color: #888;
+}
+footer .corp-box a .txt {
+    display: block;
+    position: relative;
+    margin-left: 8px;
+    padding-left: 9px;
+    font-family: 'AppleSDGothicNeo-Regular';
+}
+footer .corp-box a+a .txt::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 11px;
+    margin-top: -6px;
+    background-color: #c9cccf;
+    content: '';
+}
+footer .corp-box a:nth-child(n+4) {
+    margin-top: 4px;
+}
+footer .corp-box a:last-child .txt::before {
+    display: none;
+}
+footer .f-logo a {
+    display: block;
+    margin-top: 14px;
+}
+footer .f-logo a::before {
+    background-position: -127px -26px;
+    width: 68px;
+    height: 13px;
+    display: inline-block;
+    content: '';
+}

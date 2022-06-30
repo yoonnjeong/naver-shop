@@ -2,58 +2,69 @@
 @import url(./common.css);
 
 
-header {
-    background-color: #292b2c;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-header .logo a {
-    display: block;
-    padding: 17px 15px 17px 16px;
-}
-header .logo a::before {
-    background-position: -368px -570px;
-    width: 22px;
-    height: 22px;
-}
-header .brand-logo {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    left: 53px;
-}
-header .brand-logo a {
-    font-size: 21px;
-    line-height: 56px;
-    color: #fff;
-    display: block;
-}
-header .utils-area {
-    display: flex;
-    padding-right: 8px;
-}
-header .utils-area a {
-    display: block;
-    padding: 16px 8px;
-}
-header .utils-area a::before {
-    width: 24px;
-    height: 24px;
-}
-header .utils-area a.btn-search::before {
-    background-position: -537px -523px;
-}
-header .utils-area a.btn-cart::before {
-    background-position: -571px -369px;
-}
-header .utils-area a.btn-menu::before {
-    background-position: -36px -570px;
-}
+
 footer {
-    padding: 14px 7px 74px 5px;
+    padding: 0 7px 74px 5px;
     text-align: center;
 }
+footer .t-wrap {
+    margin-bottom: 14px;
+    border-top: 1px solid #e7e7e7;
+}
+footer .t-wrap .btn-top {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #e1e4e7;
+    background: #fff;
+    height: 43px;
+}
+footer .t-wrap .btn-top .txt {
+    position: relative;
+    font-family: 'AppleSDGothicNeo-Regular';
+    font-size: 14px;
+    line-height: 15px;
+    color: #555;
+    display: inline-block;
+    padding-right: 13px;
+}
+footer .t-wrap .btn-top .txt::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 8px;
+    height: 5px;
+    margin-top: -3px;
+    background-position: 0 -10px;
+    display: inline-block;
+}
+footer .t-wrap .btn-wrap {
+    margin-top: 5px;
+    border: 1px solid #e1e4e7;
+    background-color: #f7f7f9;
+    display: flex;
+    text-align: center;
+    font-family: 'AppleSDGothicNeo-Regular';
+    font-size: 14px;
+    line-height: 15px;
+    color: #555;
+    font-weight: 300;
+}
+footer .t-wrap .btn-wrap a {
+    width: 50%;
+    display: block;
+    padding: 13px 0 11px;
+    position: relative;
+}
+footer .t-wrap .btn-wrap a+a::before {
+    width: 1px;
+    height: 12px;
+    background-color: #ebebeb;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
 footer .naver-seller {
     display: inline-block;
     position: relative;

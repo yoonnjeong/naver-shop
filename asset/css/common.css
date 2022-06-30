@@ -26,7 +26,8 @@ body {
 .top-area .main-cata::before,
 .top-area .cata::before,
 .top-area .btn-close::before,
-.sc-service .service-item a::before {
+.sc-service .service-item a::before,
+.sc-service .service-list .service-item.toptop a::after {
     background-image: url(../images/spSw_hamburger_svg.svg);
     background-size: 627px 623px;
     background-repeat: no-repeat;

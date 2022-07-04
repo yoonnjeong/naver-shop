@@ -1,0 +1,1545 @@
+.sc-mainswiper {
+    padding-top: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.sc-mainswiper .swiper-wrapper {
+    height: 354px;
+}
+.sc-mainswiper .swiper-slide {
+    width: 305px;
+    padding: 0 8px 0;
+    height: auto;
+}
+.sc-mainswiper .swiper-slide a {
+    display: block;
+}
+.sc-mainswiper .ig-box {
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%);
+    overflow: hidden;
+    position: relative;
+    padding-top: 100%;
+}
+.sc-mainswiper .ig-box::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 132px;
+    background-image: linear-gradient(180deg,transparent,hsla(0,0%,100%,.3));
+    content: '';
+}
+.sc-mainswiper .ig-box img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.sc-mainswiper .text-box {
+    position: relative;
+    margin-top: -11px;
+    letter-spacing: -.5px;
+}
+.sc-mainswiper .text-box .highlight {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 34px;
+    white-space: nowrap;
+    padding-right: 20px;
+    font-size: 30px;
+    color: #222;
+}
+.sc-mainswiper .text-box .title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 21px;
+    white-space: nowrap;
+    margin-top: 5px;
+    padding-right: 70px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(34,34,34,.8);
+}
+.sc-mainswiper .ig-box .notice {
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 58px;
+    height: 58px;
+    background-image: linear-gradient(76deg,#3023ae,#7223b3);
+    opacity: 0;
+    transform: scale(0);
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+    font-weight: 700;
+    line-height: 17px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    color: hsla(0,0%,100%,.9);
+    transition: transform 0.5s 1s;
+}
+/* 스크립트 */
+.sc-mainswiper .swiper-slide-active .ig-box .notice {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+.sc-mainswiper .ig-box .notice .txt {
+    font-weight: 700;
+    line-height: 17px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    color: hsla(0,0%,100%,.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.sc-mainswiper .pagi-wrap {
+    max-width: 305px;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #dee1e4;
+    position: relative;
+}
+.sc-mainswiper .pagi-wrap .curr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 30px; */
+    height: 100%;
+    background-color: #222;
+    transition: 0.2s;
+}
+
+
+
+section+section {
+    margin: 6px 6px 0;
+    border: 1px solid #e1e4e7;
+    background-color: #fff;
+    overflow: hidden;
+}
+.sc-liveswiper .swiper-wrapper {
+    height: 90px;
+}
+.sc-liveswiper .swiper-slide a {
+    padding: 15px 10px;
+    /* text-align: center; */
+    display: block;
+}
+.sc-liveswiper a .ig-box {
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+}
+.sc-liveswiper a .ig-box::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    border-radius: 50%;
+    content: '';
+}
+.sc-liveswiper a .ig-box img {
+    width: 100%;
+}
+.sc-liveswiper a .text-box {
+    padding-left: 10px;
+    overflow: hidden;
+}
+.sc-liveswiper a .time {
+    display: flex;
+    margin-top: 7px;
+}
+.sc-liveswiper a .time .txt {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 26px;
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #333;
+}
+.sc-liveswiper a .liveBanner_live {
+    display: block;
+    position: relative;
+    width: 33px;
+    height: 22px;
+    margin: 2px 0 0 5px;
+} 
+.sc-liveswiper a .liveBanner_live .svg-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    margin-top: -1px;
+    margin-left: 1px;
+}
+.sc-liveswiper a .title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    white-space: nowrap;
+    margin: 3px 0 0 1px;
+    font-weight: 500;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -.5px;
+}
+.sc-liveswiper .swiper-horizontal>.swiper-pagination-bullets,.sc-liveswiper .swiper-pagination-bullets.swiper-pagination-horizontal,.sc-liveswiper .swiper-pagination-custom,.sc-liveswiper .swiper-pagination-fraction {
+    bottom: 7px;
+    position: relative;
+    line-height: 5px;
+}
+.sc-liveswiper .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    background-color: #d8d8d8;
+    margin: 0 2px;
+    opacity: 1;
+}
+.sc-liveswiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,.sc-liveswiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 2px;
+}
+.sc-liveswiper .swiper-pagination-bullet-active {
+    background-color: #8352c7;
+}
+.sc-shoplive {
+    padding-bottom: 15px;
+}
+.sc-shoplive .btn-todaylive {
+    display: block;
+    padding: 18px 0 15px;
+    text-align: center;
+}
+.sc-shoplive .btn-todaylive .desc {
+    margin-top: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222;
+    letter-spacing: -.4px;
+}
+.sc-shoplive .live-box {
+    padding: 0 11px;
+}
+.sc-shoplive .live-item {
+    padding: 5px 0;
+    position: relative;
+    z-index: 3;
+}
+.sc-shoplive .live-item .live-wrap {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.sc-shoplive .live-item .btn-live {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+}
+.sc-shoplive .live-item .ig-box {
+    display: table-cell;
+    overflow: hidden;
+    position: relative;
+    width: 120px;
+    height: 180px;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+.sc-shoplive .live-item .ig-box img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.sc-shoplive .live-item .txt-box {
+    display: table-cell;
+    padding: 0 6px 0 15px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+.sc-shoplive .live-item .live-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 21px;
+    display: -webkit-box;
+    max-height: 42px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    word-break: break-all;
+    letter-spacing: -.5px;
+}
+.sc-shoplive .live-item .event {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    white-space: nowrap;
+    color: #6563f0;
+    letter-spacing: -.4px;
+}
+.sc-shoplive .live-item .buy-now {
+    margin-top: 6px;
+}
+.sc-shoplive .live-item .buy-now .img-box {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin-right: 7px;
+    border-radius: 2px;
+}
+.sc-shoplive .live-item .img-box img {
+    width: 100%;
+}
+.sc-shoplive .live-item .buy-now .img-box::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}
+.sc-shoplive .live-item .buy-now .text-box {
+    overflow: hidden;
+}
+.sc-shoplive .buy-now .text-box .view {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #767678;
+    letter-spacing: -.5px;
+}
+.sc-shoplive .buy-now .text-box strong {
+    margin-top: 1px;
+    overflow: hidden;
+    font-weight: 700;
+    color: #303038;
+    letter-spacing: -.2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.sc-shoplive .buy-now .text-box .price {
+    margin-top: 1px;
+}
+.sc-shoplive .buy-now .price strong {
+    display: flex;
+}
+.sc-shoplive .buy-now .price .dis-perc {
+    position: relative;
+    margin-right: 4px;
+    color: #f4361e;
+    display: block;
+}
+.sc-shoplive .buy-now .price .won {
+    font-weight: 400;
+}
+.sc-shoplive .txt-box .seller {
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(0,0,0,.04);
+    line-height: 21px;
+    color: #767678;
+    letter-spacing: -.4px;
+}
+.sc-shoplive .live-box .btn-alarm {
+    position: relative;
+    z-index: 1;
+    margin-top: 4px;
+    padding: 0 12px 0 9px;
+    border-radius: 15px;
+    border: 1px solid #f4361e;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #f4361e;
+    white-space: nowrap;
+}
+.sc-shoplive .live-box .btn-alarm svg {
+    width: 18px;
+    height: 15px;
+    margin: 6px 2px 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.sc-trand .logo-wrap {
+    padding-left: 12px;
+    overflow: hidden;
+}
+.sc-trand .title {
+    float: left;
+    margin-top: 17px;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -.5px;
+}
+.sc-trand .logo-wrap button {
+    padding: 19px 8px 13px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #7d7d7d;
+    letter-spacing: -.5px;
+    float: left;
+    position: relative;
+}
+.sc-trand .logo-wrap .btn-newitem {
+    margin-left: 5px;
+}
+/* 스크립트 */
+.sc-trand .logo-wrap button.active {
+    font-weight: 700;
+    color: #7a51e3;
+}
+.sc-trand .logo-wrap button+button::before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 1px;
+    height: 13px;
+    background-color: #e3e3e3;
+    vertical-align: top;
+    content: '';
+}
+.sc-trand .btn-more {
+    float: right;
+    padding: 17px 17px 18px 18px;
+    line-height: 17px;
+}
+.sc-trand .trand-swiper .swiper-slide {
+    padding: 0 15px 13px;
+}
+.sc-trand .trand-swiper .swiper-slide::after {
+    clear: both;
+    content: '';
+}
+.sc-trand .trand-swiper a {
+    float: left;
+    width: calc(100% / 3);
+    padding: 2px 2px 1px 1px;
+    position: relative;
+}
+/* a크가 블럭크기만큼안잡히고 높이가 살짝 더 커지는이유 */
+.sc-trand .trand-swiper a .ig-box {
+    position: relative;
+    padding-top: 120%;
+}
+.sc-trand .trand-swiper a .ig-box::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.04);
+    content: '';
+    z-index: 10;
+}
+/* 가상요소가 안뜨는 이유: 수정 */
+.sc-trand .trand-swiper a img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.sc-trand .trand-swiper .txt-box {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    white-space: nowrap;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+    letter-spacing: -1px;
+
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    left: 0;
+    z-index: 5;
+    padding: 0 7px;
+    z-index: 100;
+}
+.sc-trand .pagi-wrap {
+    position: relative;
+    padding: 6px 15px 18px;
+    text-align: center;
+    font-size: 0;
+}
+.sc-trand .pagi-wrap .swiper-button-next,
+.sc-trand .pagi-wrap .swiper-button-prev, .sc-trand .pagi-wrap .swiper-pagination {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    top: auto;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    opacity: 1;
+}
+.sc-trand .pagi-wrap .swiper-button-next,
+.sc-trand .pagi-wrap .swiper-button-prev {
+    padding: 9px 18px 8px;
+    border: 1px solid #e6e6e6;
+    line-height: 16px;
+}
+.sc-trand .pagi-wrap svg {
+    display: inline-block;
+    vertical-align: top;
+}
+.sc-trand .pagi-wrap .swiper-button-next svg {
+    transform: rotate(180deg);
+}
+.sc-trand .pagi-wrap .swiper-pagination {
+    width: 68px;
+    height: 34px;
+    margin-left: 1px;
+    font-size: 15px;
+    line-height: 34px;
+    color: #7d7d7d;
+}
+/* 실제보다 크기가 안에 svg가 더 크게 잡히는 이유 */
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+.sc-trand .notice-ad {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    width: 25px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #c4c8cc;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #b7bbbf;
+    letter-spacing: .3px;
+}
+
+
+.sc-toptop .btn-toptop {
+    display: block;
+    position: relative;
+    padding: 17px 9px 11px;
+    border-bottom: 1px solid #e0e4e7;
+    text-align: center;
+}
+.sc-toptop .btn-toptop .desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    margin-top: 4px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+.sc-toptop .btn-toptop .desc svg {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 7px;
+    height: 11px;
+}
+.sc-toptop .shop-swiper {
+    padding: 16px 13px 15px;
+}
+/* 스크립트 */
+.sc-toptop .shop-swiper .swiper-slide-active  .ig-box {
+    background-image: linear-gradient(131deg,rgba(255,54,255,.9) 9%,rgba(255,67,67,.9) 92%);
+}
+.sc-toptop .shop-swiper .swiper-slide-active  .txt-box {
+    font-weight: 700;
+    color: #ff3da5;
+}
+.sc-toptop .shop-swiper .swiper-slide {
+    width: 70px;
+    padding: 0 5px;
+    box-sizing: content-box;
+}
+.sc-toptop .shop-swiper a {
+    display: block;
+}
+.sc-toptop .shop-swiper a .ig-box {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 24px;
+    box-sizing: content-box;
+}
+.sc-toptop .shop-swiper a .ig-box::before {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+    border-radius: 21px;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}   
+.sc-toptop .shop-swiper a .ig-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 21px;
+    vertical-align: top;
+}
+.sc-toptop .shop-swiper .txt-box {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 17px;
+    white-space: nowrap;
+    margin-top: 5px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+.sc-toptop .shop-swiper .btn-store {
+    display: inline-block;
+    width: 70px;
+    padding: 20px 0 18px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -.3px;
+    color: #ff3da5;
+    text-align: center;
+    vertical-align: top;
+}
+.sc-toptop .shop-swiper .btn-store .ic-arrow {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ff00ac;
+    margin: 0 auto 7px;
+}
+.sc-toptop .shop-swiper .btn-store svg {
+    width: 12px;
+    height: 12px;
+    margin-top: 7px;
+}
+.sc-toptop .wrap {
+    padding: 0 15px 16px;
+} 
+.sc-toptop .shop-list {
+    margin: 0 -2px;
+    overflow: hidden;
+} 
+.sc-toptop .shop-list .shop-item {
+    width: calc(100% / 3);
+    float: left;
+    padding: 0 2px;
+}
+.sc-toptop .shop-list .shop-item a {
+    display: block;
+}
+.sc-toptop .shop-list .ig-box {
+    overflow: hidden;
+    position: relative;
+    padding-top: 100%;
+    border-radius: 6px;
+}
+.sc-toptop .shop-list .ig-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.sc-toptop .shop-list .txt-box {
+    height: 35px;
+    padding: 6px 6px 13px 0;
+    box-sizing: content-box;
+}
+.sc-toptop .shop-list .price {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #333;
+}
+.sc-toptop .shop-list .name {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    white-space: nowrap;
+    margin-top: 1px;
+    color: #222;
+    letter-spacing: -.3px;
+}
+.sc-toptop .btn-refresh {
+    margin-top: 5px;
+}
+.sc-toptop .btn-refresh {
+    display: flex;
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 0 17px;
+    border: 1px solid #e7e7e7;
+    border-radius: 19px;
+    white-space: nowrap;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -.5px;
+    font-size: 14px;
+}
+.sc-toptop .btn-refresh svg {
+    width: 15px;
+    height: 14px;
+    margin: 11px 4px 0 0;
+    display: block;
+}
+.sc-toptop .btn-refresh .shop {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 36px;
+    white-space: nowrap;
+    margin-right: 4px;
+    color: #ff3da5;
+}
+.sc-toptop .btn-refresh .pagi {
+    position: relative;
+    margin-left: 4px;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+.sc-toptop .btn-refresh .num {
+    color: #ff3da5;
+}
+.sc-toptop .btn-refresh .bar {
+    margin: 0 4px 0 1px;
+    color: #bbb;
+}
+.sc-myzone {
+    overflow: initial;
+}
+.sc-myzone .btn-login {
+    display: block;
+    position: relative;
+    height: 47px;
+    margin: -1px;
+    padding: 13px 70px 0 15px;
+    background-color: #04c642;
+    background-image: url(../images/bg_gheader.png);
+    background-size: 375px auto;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    letter-spacing: -.5px;
+    box-sizing: content-box;
+}
+.sc-myzone .btn-login::before {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}
+.sc-myzone .btn-login .txt {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding-top: 6px;
+    letter-spacing: -.5px;
+    font-weight: bold;
+}
+.sc-myzone .btn-login .user-ig {
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    right: 11px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.sc-myzone .btn-login .user-ig::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    content: '';
+}
+.sc-myzone .btn-login .user-ig img {
+    width: 100%;
+}
+.sc-myzone .my-box+.my-box {
+    border-top: 1px solid #eeeff1;
+}
+.sc-myzone .my-box .btn-myshop {
+    display: block;
+    position: relative;
+    padding: 16px 0;
+    text-align: center;
+}
+.sc-myzone .my-box .k-name {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 22px;
+    color: #222;
+    letter-spacing: -.5px;
+}
+.sc-myzone .my-box svg {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 9px;
+    height: 16px;
+    margin-top: -8px;
+}
+.sc-myzone .my-box .pwrap {
+    padding: 6px 10px 27px;
+    text-align: center;
+    word-break: keep-all;
+    letter-spacing: -.3px;
+}
+.sc-myzone .my-box .notice {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #585858;
+}
+.sc-myzone .my-box .desc {
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #a5a5a5;
+}
+.sc-rank {
+    overflow: initial;
+}
+.sc-rank .rank-banner {
+    margin: -1px -1px 0;
+}
+.sc-rank .rank-banner a {
+    background-color: #f4999d;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 9px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -.5px;
+    display: block;
+}
+.sc-rank .rank-banner a::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 135px;
+    height: 60px;
+    background-position: 0 0;
+}
+.sc-rank .rank-banner a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}
+.sc-rank .rank-banner svg {
+    display: block;
+    width: 76px;
+    height: 22px;
+    margin: 13px auto 0;
+}
+.sc-rank .notice-wrap {
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #eeeff1;
+    background-color: #f9f9fa;
+
+    padding-left: 9px;
+    font-size: 13px;
+    line-height: 34px;
+    color: #888;
+    letter-spacing: -.3px;
+}
+.sc-rank .notice-wrap .itgirl-list {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.sc-rank .notice-wrap .itgirl-item {
+    display: inline-block;
+    vertical-align: top;
+}
+.sc-rank .notice-wrap .itgirl-item a {
+    position: relative;
+    padding: 0 8px 0 9px;
+    line-height: 22px;
+    color: #999;
+    display: block;
+}
+/* 스크립트 */
+.sc-rank .notice-wrap .itgirl-item.active a {
+    border-radius: 11px;
+    background-color: #aaa;
+    color: #fff;
+}
+.sc-rank .rank-box .k-name {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 16px 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    color: #222;
+    letter-spacing: -.5px;
+}
+.sc-rank .wrap {
+    padding: 0 9px 15px 10px;
+}
+.sc-rank .rank-list {
+    margin: -5px -5px -6px;
+    overflow: hidden;
+}
+.sc-rank .rank-item {
+    position: relative;
+    width: 50%;
+    float: left;
+    padding: 5px 5px 6px;
+}
+.sc-rank .rank-item a {
+    display: block;
+    position: relative;
+}
+.sc-rank .rank-item::before {
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    bottom: 8px;
+    width: 3px;
+    background-color: #e1e1e1;
+    content: '';
+}
+.sc-rank .rank-item::after {
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    bottom: 10px;
+    width: 2px;
+    background-color: #e1e1e1;
+    content: "";
+}
+.sc-rank .rank-item .ig-box {
+    position: relative;
+    margin-right: 8px;
+    padding-top: 88%;
+    overflow: hidden;
+}
+.sc-rank .rank-item .ig-box::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}
+.sc-rank .rank-item .ig-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.sc-rank .rank-item .ig-box .txt-box {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 111px;
+    height: 32px;
+    padding: 9px 8px 11px 11px;
+    box-sizing: content-box;
+    background-color: rgba(244,153,157,.9);
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 16px;
+    display: -webkit-box;
+    max-height: 32px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #fff;
+    word-break: break-all;
+    letter-spacing: -.5px;
+}
+.sc-rank .rank-box.line {
+    border-top: 1px solid #eeeff1;
+}
+.sc-rank .btn-wrap {
+    margin: 0 10px 10px;
+    border: 1px solid #efefef;
+    overflow: hidden;
+}
+.sc-rank .btn-wrap a+a{
+    border-left: 1px solid #efefef;
+}
+.sc-rank .btn-wrap a {
+    width: 50%;
+    float: left;
+    display: block;
+    font-size: 13px;
+    color: #999;
+    letter-spacing: -.5px;
+    text-align: center;
+    line-height: 28px;
+}
+.sc-rank .btn-wrap a.active {
+    color: #f4999d;
+    text-decoration: underline;
+}
+.sc-rank .best-swiper {
+    padding: 0 10px 15px;
+    overflow: hidden;
+}
+.sc-rank .best-swiper .swiper-slide {
+    width: 111px;
+}
+.sc-rank .best-swiper .swiper-slide+.swiper-slide {
+    margin-left: 4px;
+}
+.sc-rank .best-swiper .swiper-slide a {
+    display: block;
+}
+.sc-rank .best-swiper a .ig-box {
+    position: relative;
+    height: 111px;
+}
+.sc-rank .best-swiper a .ig-box::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}
+.sc-rank .best-swiper a .ig-box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    background-color: rgba(244,153,157,.8);
+}
+.sc-rank .best-swiper .ig-box img {
+    width: 100%;
+}
+.sc-rank .best-swiper .txt-box {
+    padding: 6px 5px 0;
+}
+.sc-rank .best-swiper .txt-box .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 17px;
+    display: -webkit-box;
+    max-height: 34px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 400;
+    color: #333;
+    word-break: break-all;
+    letter-spacing: -.3px;
+}
+.sc-rank .best-swiper .txt-box .price {
+    font-weight: 700;
+    color: #fe5157;
+    line-height: 17px;
+}
+.sc-rank .best-swiper .txt-box .won {
+    padding-left: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+/* common */
+section .bottom-btn {
+    display: block;
+    padding: 7px;
+    border-top: 1px solid #eeeff1;
+    line-height: 20px;
+    color: #999;
+    text-align: right;
+}
+.sc-brand .wrap {
+    position: relative;
+    padding: 18px 0 15px;
+    text-align: center;
+    letter-spacing: -.5px;
+}
+.sc-brand .wrap::after {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    left: 10px;
+    border-top: 1px solid #f2f2f2;
+    content: "";
+}
+.sc-brand .k-name {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #222;
+}
+.sc-brand .wrap .desc {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    white-space: nowrap;
+    margin-top: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.sc-brand .brand-swiper {
+    padding: 16px 15px 12px;
+}
+.sc-brand .brand-swiper .swiper-slide {
+    margin-left: 11px;
+    width: 98px;
+    text-align: center;
+}
+.sc-brand .brand-swiper .swiper-slide a {
+    display: block;
+}
+.sc-brand .brand-swiper .ig-box {
+    overflow: hidden;
+    position: relative;
+    height: 98px;
+    border-radius: 50%;
+}
+.sc-brand .brand-swiper .ig-box::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    border-radius: 50%;
+    content: "";
+}
+.sc-brand .brand-swiper .ig-box img {
+    width: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.sc-brand .brand-swiper .txt-box {
+        overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 17px;
+    white-space: nowrap;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+
+
+
+
+.sc-hotdeal {
+    overflow: initial;
+}
+.sc-hotdeal .deal-banner {
+    margin: -1px -1px 0;
+}
+.sc-hotdeal .deal-banner a {
+    background-color: #f96a70;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 9px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -.5px;
+    display: block;
+}
+.sc-hotdeal .deal-banner a::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 135px;
+    height: 60px;
+    background-position: -140px -65px;
+}
+.sc-hotdeal .deal-banner a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    content: '';
+}
+.sc-hotdeal .deal-banner svg {
+    display: block;
+    width: 76px;
+    height: 22px;
+    margin: 13px auto 0;
+}
+.sc-hotdeal .deal-list {
+    padding: 0 10px;
+}
+.sc-hotdeal .deal-item {
+    padding: 9px 0;
+    overflow: hidden;
+}
+.sc-hotdeal .deal-item a {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.sc-hotdeal .deal-item .ig-box {
+    overflow: hidden;
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    width: 111px;
+    height: 105px;
+}
+.sc-hotdeal .deal-item .ig-box::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 1px solid rgba(0,0,0,.05);
+    z-index: 10;
+    content: '';
+}
+.sc-hotdeal .deal-item .ig-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.sc-hotdeal .deal-item .ig-box .dis-per {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    background-color: #ff4d66;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -.2px;
+}
+.sc-hotdeal .deal-item .txt-box {
+    overflow: hidden;
+    padding-left: 9px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.sc-hotdeal .deal-item .txt-box .time-box {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 15px;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #929292;
+}
+.sc-hotdeal .deal-item .txt-box svg {
+    width: 11px;
+    height: 11px;
+    margin: 2px 4px 0 0;
+}
+.sc-hotdeal .deal-item .txt-box .name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 17px;
+    display: -webkit-box;
+    max-height: 34px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 5px;
+    padding-right: 10px;
+    font-weight: 400;
+    color: #333;
+    word-break: break-all;
+    letter-spacing: -.5px;
+}
+.sc-hotdeal .deal-item .price {
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #fe5157;
+    display: block;
+}
+.sc-hotdeal .deal-item .won {
+    padding-left: 2px;
+    font-size: 13px;
+    font-weight: 400;
+    vertical-align: top;
+}
+.sc-hotdeal .bottom-btn .num {
+    color: #666;
+}
+.sc-allcata .k-name {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 16px 5px 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    color: #222;
+    letter-spacing: -.5px;
+}
+.sc-allcata .cata-list {
+    padding: 0 10px;
+}
+.sc-allcata .cata-item {
+    overflow: hidden;
+    border-bottom: 1px solid #f6f7f8;
+}
+.sc-allcata .cata-item a {
+    display: block;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 26px;
+    white-space: nowrap;
+    padding: 9px 0;
+}
+.sc-allcata .cata-item .ig-box {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: top;
+}
+.sc-allcata .cata-item .ig-box img {
+    width: 100%;
+}
+.sc-allcata .cata-item .txt {
+    padding-left: 7px;
+    color: #666;
+    letter-spacing: -.3px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sc-service {
+    margin-bottom: 15px;
+}
+.sc-service .k-name {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 16px 5px 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    color: #222;
+    letter-spacing: -.5px;
+}
+.sc-service .service-list {
+    padding: 0 10px;
+    overflow: hidden;
+}
+.sc-service .service-item {
+    float: left;
+}
+.sc-legal {
+    margin: 0;
+    border-top: 1px solid #e1e4e7;
+    border-bottom: 1px solid #e1e4e7;
+    background-color: #fafafa;
+    overflow: initial;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+.sc-legal .title {
+    padding: 0 14px;
+    border-bottom: 1px solid #ededed;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 600;
+}
+.sc-legal .link-more {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 0 15px;
+    font-size: 13px;
+    color: #555555;
+    letter-spacing: -0.5px;
+}
+.sc-legal .link-more::after {
+    background-position: -270px -229px;
+    width: 7px;
+    height: 11px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 6px;
+    vertical-align: -1px;
+    content: '';
+}
+.sc-legal .desc {
+    padding: 12px 15px;
+    font-size: 13px;
+    color: #7e8288;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+main .wrapp {
+    padding: 15px 0 10px;
+    text-align: center;
+}
+main .btn-addnaver {
+    position: relative;
+    padding: 0 13px 0 53px;
+    height: 42px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    white-space: nowrap;
+    overflow: hidden;
+}
+main .btn-addnaver .ic-naverhome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 7px 10px 11px 11px;
+    border-right: 1px solid #dcdcdc;
+}
+main .btn-addnaver .ic-naverhome::after {
+    width: 20px;
+    height: 22px;
+    background-position: 0 0;
+    background-image: url(../images/sp_home_v180131a.png);
+    background-size: 64px 43px;
+    content: '';
+    display: block;
+}
+main .btn-addnaver .ic-naverhome .desc {
+    line-height: 41px;
+    font-size: 15px;
+    color: #222;
+}
+main .btn-addnaver .green {
+    padding: 0 5px;
+    color: #00c73c;
+    display: inline-block;
+}
+
+footer .t-wrap {
+    border-top: none;
+}

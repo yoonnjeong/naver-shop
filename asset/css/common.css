@@ -17,11 +17,43 @@ body {
     clip: rect(0 0 0 0);
     margin: -1px;
 }
+/* 메인 */
+header .left-wrap .logo a::before,
+header .left-wrap .k-cata a::before,
+header .search-btn a::before,
+.lnb-area .lnb-swiper::before,
+.lnb-area .lnb-swiper:nth-child(2) a::before,
+.lnb-area .lnb-swiper .swiper-slide a::after,
+.lnb-area .lnb-swiper::after,
+.lnb-area .lnb-swiper .swiper-slide.mr a::before,
+.lnb-area .lnb-swiper .swiper-slide.top a::before,
+.lnb-area .lnb-swiper .swiper-slide.best a::before,
+.lnb-area .lnb-swiper .swiper-slide.live a::before,
+.lnb-area .lnb-swiper .swiper-slide.ai a::before, .sc-legal .link-more::after {
+    background-image: url(../images/spSv_global.png);
+    background-size: 286px 267px;
+    display: block;
+    content: '';
+}
+.sc-rank .rank-banner a::before,
+.sc-hotdeal .deal-banner a::before {
+    background-image: url(../images/sp_best_v2.png);
+    background-repeat: no-repeat;
+    background-size: 275px auto;
+    content: '';
+    display: block;
+}
 
+/* 디테일,메인 */
+.container {
+    background-color: #e9ecef;
+}
+/* 로그인 */
 .wrapper {
     padding: 0 10px 34px;
     background-color: #efeff0;
 }
+/* 서비스메뉴 */
 .top-area .logo a::before,
 .top-area .main-cata::before,
 .top-area .cata::before,
@@ -32,6 +64,7 @@ body {
     background-size: 627px 623px;
     background-repeat: no-repeat;
 }
+/* 디테일 */
 header .logo a::before,
 header .utils-area a::before,
 .sc-main .wrap .star::before,
@@ -133,7 +166,7 @@ section .btn-box a.like::before {
     background-color: rgba(0,0,0,.1);
     content: '';
 }
-.lnb-box {
+.buy-box {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -147,19 +180,19 @@ section .btn-box a.like::before {
     width: 100%;
     table-layout: fixed;
 }
-.lnb-box a {
+.buy-box a {
     display: table-cell;
     height: 44px;
     padding: 0 2px 0 3px;
     box-sizing: content-box;
     vertical-align: middle;
 }
-.lnb-box a .box {
+.buy-box a .box {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.lnb-box a .box::before {
+.buy-box a .box::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -169,24 +202,24 @@ section .btn-box a.like::before {
     border-radius: 2px;
     content: '';
 }
-.lnb-box .btn-like,
-.lnb-box .btn-talk {
+.buy-box .btn-like,
+.buy-box .btn-talk {
     width: 44px;
 }
-.lnb-box .btn-like svg,
-.lnb-box .btn-talk svg {
+.buy-box .btn-like svg,
+.buy-box .btn-talk svg {
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 1;
     margin: -12px 0 0 -12px;
 }
-.lnb-box .btn-present .box::before,
-.lnb-box .btn-buy .box::before {
+.buy-box .btn-present .box::before,
+.buy-box .btn-buy .box::before {
     border-color: #03c75a;
 }
-.lnb-box .btn-present,
-.lnb-box .btn-buy {
+.buy-box .btn-present,
+.buy-box .btn-buy {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: -0.64px;
@@ -194,7 +227,7 @@ section .btn-box a.like::before {
     text-align: center;
     line-height: 44px;
 }
-.lnb-box .btn-buy .box {
+.buy-box .btn-buy .box {
     color: #ffffff;
     background-color: #03c75a;
     border-radius: 2px;
@@ -206,4 +239,116 @@ section .btn-box a.like::before {
     bottom: 73px;
     z-index: 3001;
     display: none;
+}
+/* 로그인서비스, 리스트서비스공통 */
+.sc-service .service-list .service-item {
+    display: block;
+    width: 50%;
+    height: 44px;
+}
+.sc-service .service-list .service-item a {
+    display: block;
+    font-size: 15px;
+    line-height: 44px;
+    color: #444;
+}
+.sc-service .service-list .service-item.toptop a::after {
+    background-position: -4px -56px;
+    width: 48px;
+    height: 19px;
+    margin-top: 12px;
+    display: inline-block;
+    content: '';
+    vertical-align: top;
+}
+.sc-service .service-item:first-child a::before {
+    background-image: url(../images/spSw_hamburger_png.png);
+    background-size: 24px 24px;
+    background-position: 0px 0px;
+    display: inline-block;
+    content: '';
+}
+
+.sc-service .service-item a::before {
+    display: inline-block;
+    content: '';
+    margin: 10px 8px 0 0;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+}
+.sc-service .service-item:nth-child(2) a::before {
+    background-position: -68px -563px;
+}
+.sc-service .service-item:nth-child(3) a::before {
+    background-position: -484px -563px;
+}
+.sc-service .service-item:nth-child(4) a::before {
+    background-position: -565px -503px;
+}
+.sc-service .service-item:nth-child(5) a::before {
+    background-position: -356px -563px;
+}
+.sc-service .service-item:nth-child(6) a::before {
+    background-position: -548px -563px;
+}
+.sc-service .service-item:nth-child(7) a::before {
+    background-position: -4px -563px;
+}
+.sc-service .service-item:nth-child(8) a::before {
+    background-position: -565px -439px;
+}
+.sc-service .service-item:nth-child(9) a::before {
+    background-position: -260px -563px;
+}
+.sc-service .service-item:nth-child(10) a::before {
+    background-position: -228px -563px;
+}
+.sc-service .service-item:nth-child(11) a::before {
+    background-position: -100px -563px;
+}
+.sc-service .service-item:nth-child(12) a::before {
+    background-position: -292px -563px;
+}
+.sc-service .service-item:nth-child(13) a::before {
+    background-position: -196px -563px;
+}
+.sc-service .service-item:nth-child(14) a::before {
+    background-position: -388px -563px;
+}
+.sc-service .service-item:nth-child(15) a::before {
+    background-position: -452px -563px;
+}
+.sc-service .service-item:nth-child(16) a::before {
+    background-position: -565px -407px;
+}
+.sc-service .service-item:nth-child(17) a::before {
+    background-position: -324px -563px;
+}
+.sc-service .service-item:nth-child(18) a::before {
+    background-position: -164px -563px;
+}
+.sc-service .service-item:nth-child(19) a::before {
+    background-position: -132px -563px;
+}
+.sc-service .service-item:nth-child(20) a::before {
+    background-position: -36px -563px;
+}
+.sc-service .service-item:nth-child(21) a::before {
+    background-position: -599px -4px;
+}
+.sc-service .service-item:nth-child(22) a::before {
+    background-position: -420px -563px;
+}
+.sc-service .service-item:nth-child(23) a::before {
+    background-position: -565px -471px;
+}
+.sc-service .service-item:nth-child(24) a::before {
+    background-position: -516px -563px;
+}
+.sc-service .service-item:nth-child(25) a::before {
+    background-position: -565px -343px;
+}
+.sc-service .service-item:nth-child(26) a::before {
+    background-position: -565px -375px;
 }

@@ -1,0 +1,370 @@
+{
+    "liveItems":[
+        {
+            "href":"상세페이지링크",
+            "thmbnailBig":"./asset/images/live1.jpg",
+            "thmbnailSmall":"./asset/images/live1-1.jpg",
+            "title":"우삼겹 팔당오징어, 양념 왕구이, 베개수박 라이브특가♥",
+            "event":"실시간 경품추첨 이벤트",
+            "subTitle":"지금 바로 사러가기",
+            "subTitle2":"네이버장보기 X 프레시몰",
+            "subDiscount":null,
+            "subPrice":null,
+            "subUnit":null,
+            "supplier":"GS칼텍스"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnailBig":"./asset/images/live2.jpg",
+            "thmbnailSmall":"./asset/images/live2-1.jpg",
+            "title":"네이버X폴인퍼니 브랜드데이",
+            "event":"구매인증 이벤트",
+            "subTitle":"베네치아 6인용 세라믹 식탁세트, 직각유광마블 세라믹 1600 + 세븐체어 4",
+            "subTitle2":null,
+            "subDiscount":"77%",
+            "subPrice":"310,600",
+            "subUnit":"원",
+            "supplier":"폴인퍼니"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnailBig":"./asset/images/live3.jpg",
+            "thmbnailSmall":"./asset/images/live3-1.jpg",
+            "title":"가치삽시다 3탄. 올 여름 혹서기 대비하기!",
+            "event":null,
+            "subTitle":"(수량제한) 고릴라 이동식 캠핑용샤워기 GO12PW 야외용 차박용 휴대용 세차용 15L",
+            "subTitle2":null,
+            "subDiscount":"29%",
+            "subPrice":"139,000",
+            "subUnit":"원",
+            "supplier":"잼형 서경환"
+        }
+    ],
+    "trendItem":[
+        {
+            "href1":"상세페이지링크",
+            "thmbnailBig1":"./asset/images/1.jpg",
+            "title1":"얼굴을 환하게 비추는 하늘하늘한 원피스",
+            "catagory1":"new",
+            "href2":"상세페이지링크",
+            "thmbnailBig2":"./asset/images/2.jpg",
+            "title2":"스타벅스 캐리백",
+            "catagory2":"new",
+            "href3":"상세페이지링크",
+            "thmbnailBig3":"./asset/images/3.jpg",
+            "title3":"블라우스1만원대",
+            "catagory3":"new",
+            "href4":"상세페이지링크",
+            "thmbnailBig4":"./asset/images/4.jpg",
+            "title4":"원피스 인기폭주",
+            "catagory4":"new",
+            "href5":"상세페이지링크",
+            "thmbnailBig5":"./asset/images/5.jpg",
+            "title5":"예쁜샌들~득템해",
+            "href6":"상세페이지링크",
+            "thmbnailBig6":"./asset/images/6.jpg",
+            "title6":"배색 롱원피스",
+            "catagory6":"new",
+            "href7":"상세페이지링크",
+            "thmbnailBig7":"./asset/images/7.jpg",
+            "title7":"BEST 셔츠남방",
+            "catagory7":"new",
+            "href8":"상세페이지링크",
+            "thmbnailBig8":"./asset/images/8.jpg",
+            "title8":"원피스 딱예뻐",
+            "catagory8":"new",
+            "href9":"상세페이지링크",
+            "thmbnailBig9":"./asset/images/9.jpg",
+            "title9":"리뷰1천~원피스",
+            "catagory9":"new"
+        },
+        {
+            "href1":"상세페이지링크",
+            "thmbnailBig1":"./asset/images/10.jpg",
+            "title1":"얼굴을 환하게 비추는 하늘하늘한 원피스",
+            "catagory1":"new",
+            "href2":"상세페이지링크",
+            "thmbnailBig2":"./asset/images/11.jpg",
+            "title2":"스타벅스 캐리백",
+            "catagory2":"new",
+            "href3":"상세페이지링크",
+            "thmbnailBig3":"./asset/images/12.jpg",
+            "title3":"블라우스1만원대",
+            "catagory3":"new",
+            "href4":"상세페이지링크",
+            "thmbnailBig4":"./asset/images/13.jpg",
+            "title4":"원피스 인기폭주",
+            "catagory4":"new",
+            "href5":"상세페이지링크",
+            "thmbnailBig5":"./asset/images/14.jpg",
+            "title5":"예쁜샌들~득템해",
+            "catagory5":"new",
+            "href6":"상세페이지링크",
+            "thmbnailBig6":"./asset/images/15.jpg",
+            "title6":"배색 롱원피스",
+            "catagory6":"new",
+            "href7":"상세페이지링크",
+            "thmbnailBig7":"./asset/images/16.jpg",
+            "title7":"BEST 셔츠남방",
+            "catagory7":"new",
+            "href8":"상세페이지링크",
+            "thmbnailBig8":"./asset/images/17.jpg",
+            "title8":"원피스 딱예뻐",
+            "catagory8":"new",
+            "href9":"상세페이지링크",
+            "thmbnailBig9":"./asset/images/18.jpg",
+            "title9":"리뷰1천~원피스",
+            "catagory9":"new"
+        }
+    ],
+    "shopItem":[
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1.jpg",
+            "title":"곰블리"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store2.jpg",
+            "title":"메종셀린"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store3.jpg",
+            "title":"가나다란"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store4.jpg",
+            "title":"오늘의집"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store5.jpg",
+            "title":"크렘므"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store6.jpg",
+            "title":"아이엠조이"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store7.jpg",
+            "title":"슈마루"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":null,
+            "title":null
+        }
+    ],
+    "shopProduct":[
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1-1.jpg",
+            "title":"2588 깔끔한 데일리템 슬리퍼",
+            "price":"35,900원"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1-2.jpg",
+            "title":"니즈레인부츠(2.5cm)",
+            "price":"28,440원"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1-3.jpg",
+            "title":"빌리하이탑레인부츠(3.5cm)",
+            "price":"24,480원"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1-4.jpg",
+            "title":"[제작]마약베르니스트랩샌들56(3cm)",
+            "price":"33,200원"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1-5.jpg",
+            "title":"일리뒷지퍼레인부츠(2.5cm)",
+            "price":"42,300원"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/store1-6.jpg",
+            "title":"메딘통굽샌들(4.5cm)",
+            "price":"49,200원"
+        }
+    ],
+    "rankProduct":[
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/b1.jpg",
+            "title":"집에서도 간편히 즐기자"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/b2.jpg",
+            "title":"진정이 필요할 때"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/b3.jpg",
+            "title":"냥이들을 위한 놀이터"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/b4.jpg",
+            "title":"꾸안꾸 패션에 제격"
+        }
+    ],
+    "rankItem":[
+        {
+            "href":"상세페이지링크",
+            "num":"1",
+            "thmbnail":"./asset/images/bes1.jpg",
+            "title":"복숭아 딱딱이 납작복숭아 신비복숭아 대극천 말랑이 천도 백도 황도 하우스",
+            "price":"9,900원"
+        },
+        {
+            "href":"상세페이지링크",
+            "num":"2",
+            "thmbnail":"./asset/images/bes2.jpg",
+            "title":"구)올림피아 / 현)알프스 아이스크림 (업소용 벌크형 축제 행사 운동회 후식 아이스크림)",
+            "price":"14,000원"
+        },
+        {
+            "href":"상세페이지링크",
+            "num":"3",
+            "thmbnail":"./asset/images/bes3.jpg",
+            "title":"헌터 오리지널 플레이 숏 앵클 여성 여름 장화 레인부츠 부츠",
+            "price":"89,790원"
+        },
+        {
+            "href":"상세페이지링크",
+            "num":"4",
+            "thmbnail":"./asset/images/bes4.jpg",
+            "title":"크록스 슬리퍼 클래식 클로그 크록밴드 바야밴드 샌들 여름 여성 남성 실내 사무실 슬리퍼",
+            "price":"18,900원"
+        },
+        {
+            "href":"상세페이지링크",
+            "num":"5",
+            "thmbnail":"./asset/images/bes5.jpg",
+            "title":"레인부츠 여성장화 예쁜 장마철 츄츄스",
+            "price":"32,900원"
+        },
+        {
+            "href":"상세페이지링크",
+            "num":"6",
+            "thmbnail":"./asset/images/bes6.jpg",
+            "title":"크록스여자장화 여성용 명품 성인 레인 미들 가벼운 장마철신발 워커부츠 가벼운 웨스턴부츠",
+            "price":"17,900원"
+        }
+    ],
+    "brandItem":[
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand.jpg",
+            "title":"컬럼비아 스포츠웨어"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand1.jpg",
+            "title":"MLB KOREA"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand2.jpg",
+            "title":"버미큘라"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand3.jpg",
+            "title":"골드모아"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand4.jpg",
+            "title":"불스원 공식 스토어"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand5.jpg",
+            "title":"SERIES"
+        },
+        {
+            "href":"상세페이지링크",
+            "thmbnail":"./asset/images/brand6.jpg",
+            "title":"농심공식몰"
+        }
+    ],
+    "dealItem":[
+        {
+            "href":"상세페이지링크",
+            "percent":"28%",
+            "thmbnail":"./asset/images/deal.jpg",
+            "title":"당도자신감 새콤달콤 햇 자두 2kg",
+            "price":"19,900"
+        },
+        {
+            "href":"상세페이지링크",
+            "percent":"10%",
+            "thmbnail":"./asset/images/deal1.jpg",
+            "title":"술샘 서설 13도 375ml 청주",
+            "price":"13,500"
+        },
+        {
+            "href":"상세페이지링크",
+            "percent":"20%",
+            "thmbnail":"./asset/images/deal2.jpg",
+            "title":"오뚜기 빠겟도그 2종 155g 6봉",
+            "price":"24,500"
+        }
+    ],
+    "mainItem":[
+        {
+            "href":"상세페이지링크",
+            "event":"브랜드 데이",
+            "thmbnail":"./asset/images/main1.jpg",
+            "title":"코오롱스포츠 아울렛SS 혜택",
+            "subtitle":"단 하루 이 가격!"
+        },
+        {
+            "href":"상세페이지링크",
+            "event":"브랜드 데이",
+            "thmbnail":"./asset/images/main2.jpg",
+            "title":"블랑101&누들앤부",
+            "subtitle":"최대 59% 할인 찬스"
+        },
+        {
+            "href":"상세페이지링크",
+            "event":"신상 위크",
+            "thmbnail":"./asset/images/main3.jpg",
+            "title":"뉴메로 10 에센스 선 론칭",
+            "subtitle":"빌리프 19% SALE"
+        },
+        {
+            "href":"상세페이지링크",
+            "event":"브랜드 데이",
+            "thmbnail":"./asset/images/main4.jpg",
+            "title":"더함 X NAVER",
+            "subtitle":"UP TO 50% SALE"
+        },
+        {
+            "href":"상세페이지링크",
+            "event":"신상위크",
+            "thmbnail":"./asset/images/main5.jpg",
+            "title":"에브리봇 Q5",
+            "subtitle":"네이버 단독 첫 공개"
+        },
+        {
+            "href":"상세페이지링크",
+            "event":"브랜드 데이",
+            "thmbnail":"./asset/images/main6.jpg",
+            "title":"케라스타즈 단 하루",
+            "subtitle":"단독 최대 10% SALE"
+        }
+    ]
+}

@@ -1,11 +1,275 @@
 @import url(./reset.css);
 @import url(./common.css);
 
+.head-wrap {
+    height: 96px;
+    background: #00c73c url(https://shopv.pstatic.net/web/modules/gnb/m/static/20210605_1730/img/sv/global/bg_gheader.png) no-repeat;
+    background-size: 320px auto;
+    background-position: 100% 0;
+    vertical-align: top;
+}
+header .logo-wrap {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+header .left-wrap {
+    display: flex;
+}
+header .left-wrap .logo a {
+    display: block;
+    position: relative;
+    width: 19px;
+    height: 18px;
+    padding: 15px 14px 15px 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(0.78);
+    box-sizing: content-box;
+}
+header .left-wrap .logo a::before {
+    background-position: -115px -221px;
+    width: 19px;
+    height: 18px;
+}
+header .left-wrap .k-cata a {
+    display: block;
+    width: 35px;
+    height: 36px;
+    padding: 6px 10px;
+    transform: translateX(-5px);
+    box-sizing: content-box;
+}
+header .left-wrap .k-cata a::before {
+    background-position: -119px 0px;
+    width: 35px;
+    height: 36px;
+}
+header .left-wrap .link-live {
+    display: block;
+    position: relative;
+    padding: 15px 10px 14px;
+    transform: translateX(-5px);
+}
+header .left-wrap .link-live::before {
+    position: absolute;
+    top: 17px;
+    left: 0;
+    width: 1px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.3);
+    content: '';
+}
+header .right-wrap {
+    display: flex;
+    margin-right: 8px;
+}
+header .right-wrap a {
+    padding: 12px 8px;
+    display: block;
+}
+header fieldset {
+    border: 0;
+}
+header .search-wrap {
+    margin: 0 6px;
+    height: 25px;
+    padding: 9px 81px 8px 11px;
+    background-color: #fff;
+    box-sizing: content-box;
+    position: relative;
+}
+header .search-box input {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    padding-right: 32px;
+    font-size: 17px;
+    color: #000000;
+    line-height: 22px;
+    outline: none;
+}
+header .search-wrap input::placeholder {
+    color: #bbb;
+}
+header .search-btn {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    z-index: 1;
+    display: flex;
+}
+header .search-btn a {
+    display: block;
+    padding: 8px 7px;
+    box-sizing: content-box;
+}
+header .search-btn .btn-vsearch::before {
+    background-position: -218px -124px;
+    width: 26px;
+    height: 26px;
+}
+header .search-btn .btn-csearch::before {
+    background-position: -218px -96px;
+    width: 26px;
+    height: 26px;
+}
+.lnb-area {
+    height: 42px;
+    font-family: initial;
+}
+.lnb-area .lnb-swiper {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    height: 42px;
+    padding-right: 41px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d7d9dc;
+}
+.lnb-area .lnb-swiper.active {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3000;
+}
+.lnb-area .lnb-swiper::before {
+    background-position: 0px -206px;
+    width: 13px;
+    height: 41px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    content: '';
+}
+.lnb-area .lnb-swiper::after {
+    background-position: -15px -206px;
+    width: 13px;
+    height: 41px;
+    z-index: 20;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+.lnb-area .lnb-swiper .swiper-slide {
+    position: relative;
+    display: block;
+    height: 42px;
+    padding: 0 3px 0 4px;
+    text-align: center;
+    width: auto;
+}
+.lnb-area .lnb-swiper .swiper-slide:first-child {
+    padding-left: 12px;
+}
+/* 스크립트 */
+.lnb-area .lnb-swiper .swiper-slide.active a::before {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    height: 2px;
+    background-color: #00c73c;
+    content: '';
+}
+.lnb-area .lnb-swiper .swiper-slide.active a {
+    font-weight: 700;
+    color: #00c73c;
+}
+.lnb-area .lnb-swiper a {
+    position: relative;
+    display: inline-block;
+    z-index: 30;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 42px;
+    height: 100%;
+}
+.lnb-area .lnb-swiper .swiper-slide:nth-child(2) a,
+.lnb-area .lnb-swiper .swiper-slide:nth-child(3) a {
+    padding-right: 3px;
+}
+.lnb-area .lnb-swiper .swiper-slide:nth-child(3) a svg {
+    margin-top: 13px;
+}
+.lnb-area .lnb-swiper .swiper-slide:nth-child(2) a::after {
+    background-position: -270px -175px;
+    width: 14px;
+    height: 8px;
+    margin: 12px 0 0 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+.lnb-area .lnb-swiper .swiper-slide:nth-child(3) a::after {
+    background-position: -270px -175px;
+    width: 14px;
+    height: 8px;
+    margin: 12px 0 0 -2px;
+    display: inline-block;
+    vertical-align: top;
+}
+.lnb-area .lnb-swiper .swiper-slide.mr a::before {
+    background-position: -153px -206px;
+    width: 31px;
+    height: 12px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.lnb-area .lnb-swiper .swiper-slide.top a::before {
+    background-position: -156px -42px;
+    width: 48px;
+    height: 20px;
+    margin-top: 12px;
+    display: inline-block;
+}
+.lnb-area .lnb-swiper .swiper-slide.best a::before {
+    background-position: -30px -206px;
+    width: 39px;
+    height: 13px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.lnb-area .lnb-swiper .swiper-slide.live a::before {
+    background-position: -43px -97px;
+    width: 57px;
+    height: 20px;
+    margin-top: 11px;
+    display: inline-block;
+}
+.lnb-area .lnb-swiper .swiper-slide.ai a::before {
+    background-position: -156px -128px;
+    width: 56px;
+    height: 11px;
+    margin-top: 16px;
+    display: inline-block;
+}
+.lnb-area .lnb-swiper .btn-morelnb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 41px;
+    height: 41px;
+    background: #fff;
+}
+.lnb-area .lnb-swiper .btn-morelnb svg {
+   display: block;
+    width: 16px;
+    height: 9px;
+    margin: 0 auto; 
+}
 
 
+
+/* 메인,디테일공통 */
 footer {
     padding: 0 7px 74px 5px;
     text-align: center;
+    background-color: #e9ecef;
 }
 footer .t-wrap {
     margin-bottom: 14px;

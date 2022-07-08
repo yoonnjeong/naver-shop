@@ -1,4 +1,8 @@
 $(function() {
+  //공통
+  $('.t-wrap .btn-top').click(function(){
+    $('html, body').animate({scrollTop : 0}, 0 );
+  });
   // 로그인
   $('.sc-catawrap .title-wrap .all-title').click(function() {
       var activeTab = $(this).attr('data-tab');
@@ -38,7 +42,7 @@ $(function() {
     $(this).parent().removeClass('active');
   });
 
-  $('main .t-wrap .btn-top, a.page-btn-top').click(function(e){
+  $('a.page-btn-top').click(function(e){
     e.preventDefault();
 
       $('html, body').animate({scrollTop : 0}, 0, function(){
@@ -92,12 +96,20 @@ $(function() {
     $('.sc-proinfor').toggleClass('active');
   });
 
+
+  
   //리스트페이지
+
+  //lnb전체메뉴
+  $('.lnb-area .btn-morelnb').click(function(){
+    $('.lnb-area').toggleClass('down');
+  });
 
   //lnb스와이퍼
   var swiper2 = new Swiper(".lnb-swiper", {
     slidesPerView: 'auto',
   });
+
 
 
 
@@ -139,17 +151,17 @@ $(function() {
 
   $(window).scroll(function(){
     var cur = $(this).scrollTop();
-    var visualObj = $('.lnb-area');
+    // var visualObj = $('.lnb-area');
     
-    if(visualObj.length){
-      var fixTop = $('.lnb-area').offset().top;
+    // if(visualObj.length){
+      // var fixTop = $('.lnb-area').offset().top;
       // console.log(fixTop);
-      if(cur >= fixTop ){
-        $('.lnb-area .lnb-swiper').addClass('active');
+      if(cur >= 96 ){
+        $('.lnb-area').addClass('active');
       } else {
-        $('.lnb-area .lnb-swiper').removeClass('active');
+        $('.lnb-area').removeClass('active');
       }
-    }
+    // }
     
   });
 

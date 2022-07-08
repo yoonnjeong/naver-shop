@@ -29,7 +29,11 @@ header .search-btn a::before,
 .lnb-area .lnb-swiper .swiper-slide.top a::before,
 .lnb-area .lnb-swiper .swiper-slide.best a::before,
 .lnb-area .lnb-swiper .swiper-slide.live a::before,
-.lnb-area .lnb-swiper .swiper-slide.ai a::before, .sc-legal .link-more::after {
+.lnb-area .lnb-swiper .swiper-slide.ai a::before, .sc-legal .link-more::after,
+.lnb-area .all-item.mr a::after,
+.lnb-area .all-item.top a::after,
+.lnb-area .all-item.live a::after,
+.lnb-area .all-item.ai a::after {
     background-image: url(../images/spSv_global.png);
     background-size: 286px 267px;
     display: block;

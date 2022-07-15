@@ -123,31 +123,8 @@ $(function() {
     },
   });
 
-  //세번째 트렌드 페이지네이션
-  var swiper5 = new Swiper(".sc-trand .trand-swiper", {
-    pagination: {
-      el: ".sc-trand .swiper-pagination",
-      type: "fraction",
-    },
-    navigation: {
-      nextEl: ".sc-trand .swiper-button-next",
-      prevEl: ".sc-trand .swiper-button-prev",
-    },
-  });
 
-  //toptop 스토어 스와이퍼
-  var swiper6 = new Swiper(".sc-toptop .shop-swiper", {
-    slidesPerView: 'auto',
-  });
 
-  //일간 베스트 스와이퍼
-  var swiper7 = new Swiper(".sc-rank .best-swiper", {
-    slidesPerView: 'auto',
-  });
-  //브랜드 스와이퍼
-  var swiper8 = new Swiper(".sc-brand .brand-swiper", {
-    slidesPerView: 'auto',
-  });
 
   $(window).scroll(function(){
     var cur = $(this).scrollTop();
@@ -283,6 +260,18 @@ fetch('./../asset/data/product.json')
 
   $('.trand-swiper .swiper-wrapper').append(html);
 
+   //세번째 트렌드 페이지네이션
+   var swiper5 = new Swiper(".sc-trand .trand-swiper", {
+    pagination: {
+      el: ".sc-trand .swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".sc-trand .swiper-button-next",
+      prevEl: ".sc-trand .swiper-button-prev",
+    },
+  });
+
   })
 fetch('./../asset/data/product.json')
 .then((response) => response.json())
@@ -321,6 +310,12 @@ fetch('./../asset/data/product.json')
       });
 
       $('.sc-toptop .swiper-wrapper').append(html);
+
+        //toptop 스토어 스와이퍼
+  var swiper6 = new Swiper(".sc-toptop .shop-swiper", {
+    slidesPerView: 'auto',
+  });
+
 
   })
 
@@ -402,6 +397,11 @@ fetch('./../asset/data/product.json')
 
   $('.sc-rank .swiper-wrapper').append(html);
 
+    //일간 베스트 스와이퍼
+    var swiper7 = new Swiper(".sc-rank .best-swiper", {
+      slidesPerView: 'auto',
+    });
+
 })
 
 
@@ -425,6 +425,12 @@ fetch('./../asset/data/product.json')
   });
 
   $('.sc-brand .swiper-wrapper').append(html);
+
+    //브랜드 스와이퍼
+    var swiper8 = new Swiper(".sc-brand .brand-swiper", {
+      slidesPerView: 'auto',
+    });
+  
 
 })
 

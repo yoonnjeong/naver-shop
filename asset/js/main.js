@@ -274,7 +274,7 @@ fetch('./../asset/data/product.json')
 
   })
 fetch('./../asset/data/product.json')
-.then((response) => response.json())
+.then((response) => response.text())
 .then((json) => {
     x = json.shopItem
     

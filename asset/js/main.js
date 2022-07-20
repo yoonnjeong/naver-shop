@@ -275,7 +275,7 @@ fetch('./../asset/data/product.json')
   })
 fetch('./../asset/data/product.json', {
   headers : {
-    'Accept' : 'application / json'
+    'Accept' : 'application/json'
   }
 })
 .then((response) => response.json())

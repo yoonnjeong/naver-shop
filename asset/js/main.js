@@ -144,7 +144,7 @@ $(function() {
 
 
 
-  fetch('./../asset/data/product.json')
+  fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
   .then((response) => response.json())
   .then((json) => {
       x = json.liveItems;
@@ -207,7 +207,7 @@ $(function() {
     $('.live-list').append(html);
 })
 
-fetch('./../asset/data/product.json')
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.trendItem
@@ -273,11 +273,7 @@ fetch('./../asset/data/product.json')
   });
 
   })
-fetch('./../asset/data/product.json', {
-  headers : {
-    'Accept' : 'application/json'
-  }
-})
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.shopItem
@@ -323,7 +319,7 @@ fetch('./../asset/data/product.json', {
 
   })
 
-  fetch('./../asset/data/product.json')
+  fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
   .then((response) => response.json())
   .then((json) => {
       x = json.shopProduct
@@ -349,7 +345,7 @@ fetch('./../asset/data/product.json', {
 
 })
   
-fetch('./../asset/data/product.json')
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.rankProduct
@@ -374,7 +370,7 @@ fetch('./../asset/data/product.json')
 
 })
 
-fetch('./../asset/data/product.json')
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.rankItem
@@ -409,7 +405,7 @@ fetch('./../asset/data/product.json')
 })
 
 
-fetch('./../asset/data/product.json')
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.brandItem
@@ -438,7 +434,7 @@ fetch('./../asset/data/product.json')
 
 })
 
-fetch('./../asset/data/product.json')
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.dealItem
@@ -480,7 +476,7 @@ fetch('./../asset/data/product.json')
 
 })
 
-fetch('./../asset/data/product.json')
+fetch('https://yoonnjeong.github.io/naver-shop/asset/data/product.json')
 .then((response) => response.json())
 .then((json) => {
     x = json.mainItem

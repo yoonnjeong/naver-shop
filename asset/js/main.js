@@ -273,8 +273,12 @@ fetch('./../asset/data/product.json')
   });
 
   })
-fetch('./../asset/data/product.json')
-.then((response) => response.text())
+fetch('./../asset/data/product.json', {
+  headers : {
+    'Accept' : 'application / json'
+  }
+})
+.then((response) => response.json())
 .then((json) => {
     x = json.shopItem
     

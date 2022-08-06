@@ -1120,7 +1120,7 @@ section+section {
     text-overflow: ellipsis;
     line-height: 17px;
     display: -webkit-box;
-    max-height: 34px;
+    max-height: 33px;
     white-space: normal;
     word-wrap: break-word;
     word-break: keep-all;
